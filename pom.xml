@@ -492,6 +492,9 @@
                         <version>2.1</version>
                     </plugin>
                 </plugins>
+                 </reporting>
+        </profile>
+    </profiles>
                 <distributionManagement>
                     <repository>
                         <id>Releases</id>
@@ -504,7 +507,5 @@
                         <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
                     </snapshotRepository>
                 </distributionManagement>
-            </reporting>
-        </profile>
-    </profiles>
+           
 </project>
